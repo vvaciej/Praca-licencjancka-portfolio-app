@@ -4,9 +4,9 @@ export default function Home() {
 	return (
 		<div className='flex justify-center'>
 			<div className='flex justify-center h-full w-360 min-h-300 bg-orange-50'>
-				<header className='flex justify-center h-17 border bg-[#303030] fixed w-360'>
+				<header className='flex justify-center h-17 border bg-[#303030] fixed w-310'>
 					<nav className='flex items-center w-full justify-between text-xs px-60'>
-						<button className='text-[0.95rem] bold font-semibold text-white cursor-pointer'>logo jakies</button>
+						<button className='text-[0.95rem] bold font-semibold text-white cursor-pointer'>logo</button>
 						<ul className='flex gap-16 uppercase pr-12 leading tracking-wider text-white'>
 							<button className='cursor-pointer'>O mnie</button>
 							<button className='cursor-pointer'>Projekty</button>
@@ -16,7 +16,7 @@ export default function Home() {
 					</nav>
 				</header>
 				<main className='flex bg-[#161513] min-w-full min-h-full justify-center mt-16'>
-					<div className='bg-white w-220 flex flex-col gap-y-14 items-center mt-12'>
+					<div className='bg-white flex flex-col gap-y-14 items-center mt-12 w-170'>
 						<section className='flex flex-col items-center text-center gap-y-8 w-3/4'>
 							<div className=''>jakies logo</div>
 							<h1 className='text-3xl'>
@@ -42,19 +42,24 @@ export default function Home() {
 								<span>React</span>
 							</section>
 						</section>
-						<section className='flex flex-col items-center gap-y-3'>
+						<section className='flex flex-col items-center gap-y-3 w-full'>
 							<h2 className='uppercase text-2xl'>Projects</h2>
-							<section className='flex gap-x-6 '> 
-								<div className='h-45 w-70 bg-orange-300 rounded-2xl'>
+							<section className='flex gap-x-6 w-full h-50'> 
+								<div className=' bg-orange-300 rounded-2xl w-full'>
 									html tutorial
 								</div>
-								<div className='w-70 h-45 rounded-2xl bg-orange-300'>
+								<div className='rounded-2xl w-full bg-orange-300'>
 									css tutorial
 								</div>
 							</section>
 						</section>
-						<section>
-							<h2 className='uppercase text-2xl'>Expierence</h2>
+						<section className='flex flex-col gap-y-3 w-full'>
+							<h2 className='uppercase text-2xl text-center'>Expierence</h2>
+							<section className='flex w-full flex-col gap-y-6'>
+								<div>fwwef</div>
+								<div>efewwf</div>
+								<div>wefwef</div>
+							</section>
 						</section>
 					</div>
 				</main>
